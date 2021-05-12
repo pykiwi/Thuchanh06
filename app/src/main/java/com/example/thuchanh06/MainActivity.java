@@ -54,8 +54,7 @@ public class MainActivity extends AppCompatActivity {
         this.student = new Student(name, address, phonenumber);
         db.addStudent(this.student);
         this.list = db.getAllStudents();
-
-
+        this.recreate();
     }
 
 
