@@ -1,2 +1,3 @@
+include ':thuchanh06_b'
 include ':app'
 rootProject.name = "Thuchanh06"
